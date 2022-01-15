@@ -29,8 +29,8 @@ img {
 }
 
 .container {
-  width: 30%;
-  margin: 1rem auto;
+  width: 20%;
+  margin: 2rem auto;
   background-color: var(--card-bg);
   padding: 1.25rem;
   border-radius: 0.5rem;
@@ -159,9 +159,16 @@ h2:hover, .avatar p span:hover{
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-@media(min-width: 550px){
+
+@media(max-width: 650px){
     .container{
-        width: 450px;
+        width: 90%;
         margin: 0 auto 1rem;
     }
+}
+@media(max-width: 1140px) and ( min-width: 651px){
+  .container{
+      width: 40%;
+      margin: 0 auto 1rem;
+  }
 }
